@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的个人主页</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, "Microsoft YaHei", sans-serif;
+      background: #f7f6f2;
+      color: #242424;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 32px;
+    }
+
+    main {
+      max-width: 760px;
+      width: 100%;
+    }
+
+    .label {
+      color: #77766f;
+      font-size: 12px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-size: clamp(42px, 8vw, 76px);
+      line-height: 1.1;
+      letter-spacing: -3px;
+      margin: 28px 0 20px;
+    }
+
+    p {
+      color: #66645f;
+      font-size: 17px;
+      line-height: 1.9;
+      max-width: 520px;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 22px;
+      padding: 14px 22px;
+      background: #242424;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    a:hover {
+      background: #555;
+    }
+
+    footer {
+      margin-top: 100px;
+      color: #99978f;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="label">WELCOME TO MY SPACE</div>
+
+    <h1>你好，<br>欢迎来到我的世界。</h1>
+
+    <p>
+      这里是我的个人网站。
+      我会在这里分享我的作品、想法，以及正在探索的新事物。
+    </p>
+
+    <a href="mailto:hello@example.com">联系我 ↗</a>
+
+    <footer>© 2026 MY PERSONAL WEBSITE</footer>
+  </main>
+</body>
+</html>
